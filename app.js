@@ -10,7 +10,8 @@ app.get("/", (req, res) => {
 const start = async () => {
     try {
         app.listen(PORT, () => {
-            `${PORT} Yes i am connected`;
+
+            console.log(`${PORT} Yes i am connected`);
         });
     } catch (error) {
         console.log(error); 
