@@ -1,1 +1,3 @@
-const getAllProducts = async (req, res) => {};
+const getAllProducts = async (req, res) => {
+    res.status
+};
