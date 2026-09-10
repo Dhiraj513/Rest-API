@@ -1,3 +1,3 @@
 const getAllProducts = async (req, res) => {
-    res.status(200).json({msg})
+    res.status(200).json({msg:"I am get"})
 };
