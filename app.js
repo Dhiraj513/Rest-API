@@ -7,6 +7,9 @@ app.get("/", (req, res) => {
     res.send("I am Available");
 });
 
+//middleware to set router
+app.use("");
+
 const start = async () => {
     try {
         app.listen(PORT, () => {
