@@ -8,7 +8,7 @@ app.get("/", (req, res) => {
 });
 
 //middleware to set router
-app.use("");
+app.use("/api/products");
 
 const start = async () => {
     try {
