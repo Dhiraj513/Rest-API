@@ -6,4 +6,4 @@ const getAllProductsTesting = async (req, res) => {
     res.status(200).json({msg:"I am getAllProductsTesting"});
 };
 
-module.exports
+module.exports = { getAllProducts, getAllProductsTesting };
