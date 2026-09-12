@@ -3,6 +3,8 @@ const app = express();
 
 const PORT = process.env.PORT || 5000;
 
+const products_routes = require("./routes/products")
+
 app.get("/", (req, res) => {
     res.send("I am Available");
 });
